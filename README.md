@@ -32,7 +32,7 @@ A few resources to get you started if this is your first Flutter project:
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 ### ![Demo]
-<a href="https://youtu.be/agCPCllXiOs" title="Demo"><img src="imgomg.gif" alt="Alternate Text" /></a>
+<a href="https://youtu.be/agCPCllXiOs" title="Demo"><img src="imgomg.gif" alt="Alternate Text" height="700" width="500"/></a>
 
 
 For help getting started with Flutter, view our
