@@ -16,6 +16,8 @@ This project is a starting point for a Flutter application.
   
   run `flutter run -d all` to run app in all connected devices.
   
+  run `flutter format .` to format all source code.
+  
 - install Flutter extension in vscode
 
 
