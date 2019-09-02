@@ -19,7 +19,7 @@ This project is a starting point for a Flutter application.
 - install Flutter extension in vscode
 
 
-Flutter packages Used
+### Flutter packages Used
 - [flutter_dotenv](https://pub.dev/packages/flutter_dotenv)
 - [RxDart](https://pub.dev/packages/rxdart)
 - [http](https://pub.dev/packages/http)
@@ -30,6 +30,10 @@ Flutter packages Used
 A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+### ![Demo]
+<a href="https://youtu.be/agCPCllXiOs" title="Demo"><img src="imgomg.gif" alt="Alternate Text" /></a>
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
