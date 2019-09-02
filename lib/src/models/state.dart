@@ -1,4 +1,4 @@
-class State<T>{
+class State<T> {
   State._();
   factory State.success(T value) = SuccessState<T>;
   factory State.error(T msg) = ErrorState<T>;

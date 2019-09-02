@@ -46,7 +46,7 @@ class HomeScreenBloc extends BlocBase {
 
   void shareImage(String url) {
     _repository.getImageToShare(url).then((Uint8List value) async {
-      await Share.file("Share via:","image.png",value,"image/png");
+      await Share.file("Share via:", "image.png", value, "image/png");
     });
   }
 }

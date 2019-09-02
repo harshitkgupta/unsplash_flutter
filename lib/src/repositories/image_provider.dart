@@ -6,8 +6,6 @@ import 'dart:convert';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../logger.dart';
 
-
-
 class ImageProvider {
   final logger = getLogger('ImageProvider');
 
@@ -17,7 +15,7 @@ class ImageProvider {
   factory ImageProvider() => _imageProvider;
 
   Client _client = Client();
-  
+
   String _apiKey = DotEnv().env['API_KEY'];
   static const String _baseUrl = "https://api.unsplash.com";
 

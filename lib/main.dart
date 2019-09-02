@@ -3,7 +3,7 @@ import 'package:imgomg/src/logger.dart';
 import 'src/ui/home_screen.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() async{
+void main() async {
   await DotEnv().load('.env');
   runApp(MyApp());
 }

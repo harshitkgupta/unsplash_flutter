@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../blocs/home_screen_bloc.dart';
 import '../models/photos.dart';
 
-
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -25,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('PixelPerfect'),
+        title: Text('Img OMG'),
         centerTitle: true,
         elevation: 0.0,
       ),
@@ -116,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(result.user.name),
                 Spacer(),
                 GestureDetector(
-                  onTap: (){
+                  onTap: () {
                     bloc.shareImage(result.urls.regular);
                   },
                   child: Icon(Icons.share, color: Colors.white),
